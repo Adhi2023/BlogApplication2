@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+}
+.App{
+  background-image: url('https://news.miami.edu/_assets/images-stories/2022/08/letter-writing-hero-940x529.jpg');
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(5px);
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* color: white; */
+  text-align: center;
+}
+
+.blog-list{
+  background-color: white;
+  margin:5px;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  background-color:lightgray;
+  align-items: center;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  position:relative;
+  padding: 10px 16px;
+  border: 0;
+  color:black;
+  cursor: pointer;
+  background-color: white;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.blog-preview span{
+  position:absolute;
+  top:20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+.blog-preview:hover,.blog-preview:focus,.blog-preview:active {
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 50px 0;
+}
+/*.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-right: 5px;
+}
+*/
+
+
+/* create new blog form */
+.login {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.login h4 {
+  padding-bottom: 7px;
+}
+.login h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/*create design*/
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: blueviolet;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.signup {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.signup h4 {
+  text-align: left;
+  display: block;
+  padding-top: 10px;
+}
+.signup h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}

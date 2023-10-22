@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "abc",
+      "body": "lores ipsum..",
+      "author": "adhi",
+      "id": "1"
+    },
+    {
+      "title": "adhi",
+      "body": "i am adhithiya raj",
+      "author": "adhitya raj",
+      "id": "WVpuFjT"
+    },
+    {
+      "title": "react",
+      "body": "react app",
+      "author": "vazz",
+      "id": "S0pqeZP"
+    },
+    {
+      "title": "diet",
+      "body": "diet is one of the major factor that has to be followed in our daily routine",
+      "author": "harish",
+      "id": "acxdW3O"
+    }
+  ]
+}
